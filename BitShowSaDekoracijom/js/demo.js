@@ -25,7 +25,7 @@ request.onload = function() {
         let link = document.createElement("a");
         let imgLink = document.createElement("a");
         imgLink.setAttribute("href", `profile.html?id=${data[i].id}`)
-        imgLink.setAttribute("target", "_blank")
+        //imgLink.setAttribute("target", "_blank")
         link.setAttribute("href", `profile.html?id=${data[i].id}`);
         link.setAttribute("target", "_blank");
         title.className = "col-sm-12 col-md-4 col-lg-3 title";
