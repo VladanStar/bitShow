@@ -1,6 +1,7 @@
-body{
+ body{
   background-image: url(https://desktop.github.com/images/star-bg.svg), linear-gradient(#191c20, #24292e 1%);
-}
+} 
+
 .header {
   margin-bottom: 20px; }
 .navbar {
