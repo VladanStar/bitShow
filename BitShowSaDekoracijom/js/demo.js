@@ -30,6 +30,7 @@ request.onload = function() {
         link.setAttribute("target", "_blank");
         title.className = "col-sm-12 col-md-4 col-lg-3 title";
         img.setAttribute("src", data[i].image.medium);
+        img.setAttribute('class','imgborder');
         h3.textContent = data[i].name;
         link.appendChild(h3);
         imgLink.appendChild(img)
